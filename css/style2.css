@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+}
+#logobar{
+    height: 45px;
+    width: 100%;
+    background-color:#7A0000 ;
+    
+    
+}
+#itembar{
+    height: 45px;
+    width: 100%;
+    background-color:gold;
+    margin:0%;
+    padding-left: 0%;
+    color: black;
+    
+    
+}
+#greenbar{
+    height: 45px;
+    width: 100%;
+    background-color:green;
+    margin:0%;
+    padding: 0%;
+    color: white;
+    
+}
+.specifywidth{
+width:  1050px;
+margin: 0 auto;
+background-color:black;
+}
+#logo{
+    padding: 8px 0px 0px 8px;
+    float: left;
+}
+#login{
+    padding: 8px 0px 0px 8px;
+    float: left;
+}
+ul{
+    list-style: none;
+    float: left;
+}
+li{
+    float: left;
+    padding: 0px 25px 0px 25px ;
+    background-color: transparent;
+    color: white;
+    cursor:pointer;
+}
+.button{
+    background-color: transparent;
+    color:#fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+#navbardiv{
+    position:relative;
+    float:left;
+}
+.dropdown{
+    display:none;
+    position: fixed;
+    background-color: #7A0000;
+    min-width: 160px;
+    z-index: 1;
+
+}
+.dropdown a:hover{
+    background-color: #fff;
+    color:black;
+}
+.morebutton:hover .dropdown{
+    display:grid; 
+    grid-template-columns: auto auto auto;
+    margin-top: 25px;
+    column-gap: 10px;
+
+}
+a{
+   text-decoration: none; 
+   color: white;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+    width: 100%;
+    object-fit: contain;
+    margin-left: 20px;
+  }
+.griditem
+  {
+width: 360px;
+padding:0%;
+margin: 10px;
+align-items:stretch ;
+}
+h1{
+    margin: 0%;
+    text-align: left;
+}
