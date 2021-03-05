@@ -84,23 +84,21 @@ a{
    text-decoration: none; 
    color: white;
 }
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     background-color: #2196F3;
-    padding: 10px;
     width: 100%;
-    object-fit: contain;
-    margin-left: 20px;
+    object-fit: scale-down;
+    height: 450px;
   }
 .griditem
   {
-width: 360px;
+height: 200px;
 padding:0%;
-margin: 10px;
 align-items:stretch ;
-}
-h1{
-    margin: 0%;
-    text-align: left;
+width: 50%;
+gap: 0%;
+float:left;
 }
