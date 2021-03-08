@@ -1,10 +1,12 @@
 body{
     margin: 0;
+    font-family: cursive;
 }
 #logobar{
     height: 45px;
     width: 100%;
-    background-color:#7A0000 ;
+    background-color:aliceblue ;
+    color:blue;
     
     
 }
@@ -36,24 +38,19 @@ background-color:black;
     padding: 8px 0px 0px 8px;
     float: left;
 }
-#login{
-    padding: 8px 0px 0px 8px;
-    float: left;
-}
 ul{
     list-style: none;
     float: left;
 }
 li{
     float: left;
-    padding: 0px 25px 0px 25px ;
+    padding: 0px 20px 0px 20px ;
     background-color: transparent;
-    color: white;
+    color:white;
     cursor:pointer;
 }
 .button{
-    background-color: transparent;
-    color:#fff;
+    color:blue;
     font-size: 15px;
     cursor: pointer;
 }
@@ -64,7 +61,7 @@ li{
 .dropdown{
     display:none;
     position: fixed;
-    background-color: #7A0000;
+    background-color: #f3f0f0;
     min-width: 160px;
     z-index: 1;
 
@@ -73,32 +70,38 @@ li{
     background-color: #fff;
     color:black;
 }
-.morebutton:hover .dropdown{
+.Morebutton:hover .dropdown{
     display:grid; 
     grid-template-columns: auto auto auto;
     margin-top: 25px;
     column-gap: 10px;
+    width: 100%;
 
 }
 a{
    text-decoration: none; 
-   color: white;
+   color:#002c5f;
 }
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto;
     background-color: #2196F3;
-    width: 100%;
     object-fit: scale-down;
     height: 450px;
   }
+  .placeholderforpics{    
+      display: grid;
+    grid-template-columns: auto auto;
+    background-color: #2196F3;
+    object-fit: contain;
+    height: 450px;
+    padding: 0%;
+    margin: 0%;
+
+  }
 .griditem
   {
-height: 200px;
-padding:0%;
-align-items:stretch ;
-width: 50%;
-gap: 0%;
+width: auto;
 float:left;
 }
